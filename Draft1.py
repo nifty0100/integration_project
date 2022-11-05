@@ -84,8 +84,8 @@ def main():
         print('That was a tough one, keep going')
         print('This next one is pretty easy')
         answer3 = None
-        while answer3 != 256:
-            answer3 = input('How many fluid ounces are in 2 gallons?:')
+        while answer3 != int(256):
+            answer3 = int(input('How many fluid ounces are in 2 gallons?:'))
         print('You should be at the fourth and final door before', fish_name)
         print('expect this one to be difficult')
         answer4 = None
